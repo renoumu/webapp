@@ -9,16 +9,26 @@ body{position: relative;}
 #picList li{float: left;width: 25%;position: relative;}
 #picList li img{width: 100%;}
 #picList li a{    position: absolute; top: 283px;left: 173px;width: 23%;height: 12%;}
-#picList li a img{width: 100%;}
+#picList li a img{width: 100%;opacity: 0;}
 
 
 /*内容区*/
 #con{width: 100%;overflow: hidden;font-family: "微软雅黑";}
 #con .conTag{float: left;width: 50%;}
 #con .conTag li{width: 100%;border: 0.1em solid #ccc;overflow: hidden;}
-#con .conTag li div{float: left;padding-top: 18%;text-align: center;}
+#con .conTag li div{float: left;}
 #con .conTag li div:nth-of-type(1){width: 20%;height: 20%;padding: 15%;padding-right: 0px;}
-#con .conTag li div:nth-of-type(2){width: 65%;}
+#con .conTag li div:nth-of-type(2){width: 65%;padding-top: 18%;text-align: center;}
+#con .conTag li div:nth-of-type(3){width: 65%;padding-top: 2%;text-align: center;}
 #con .conTag li div img{width: 100%;}
 #con .conTag li div span:nth-of-type(1){font-size: 2em;color: #646464;font-weight: bold;}
 #con .conTag li div span:nth-of-type(2){font-size: 1.5em;color: #646464;font-weight: bold;}
+
+/*news*/
+.news{width: 100%;position: relative;}
+.news .newsImg{width: 100%;}
+.news .newHref a{position: absolute;top: 161px;left: 400px;width: 27%;height: 17%;text-align: center;opacity: 0;}
+.footer{width: 100%;}
+.footer div{float: left;width: 50%;}
+.footer div:nth-of-type(1) img{width: 100%;}
+.footer div:nth-of-type(2) img{width: 100%;}
